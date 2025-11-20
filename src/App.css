@@ -1,0 +1,95 @@
+.container {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+.logo {
+  color: #A435F0;
+  margin: 0;
+}
+
+.search {
+  padding: 10px;
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background-color: #A435F0;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* CATEGORIES */
+.categories {
+  display: flex;
+  gap: 20px;
+  padding: 20px 40px;
+  font-size: 18px;
+}
+
+.categories span {
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+  margin: 20px 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+.course-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  background: white;
+}
+
+.course-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.course-card .instructor {
+  margin: 0;
+  color: gray;
+}
+
+/* TRUSTED COMPANIES */
+.trusted {
+  margin: 50px 40px;
+  text-align: center;
+}
+
+.company-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.company-list span {
+  color: #555;
+}
