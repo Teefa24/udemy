@@ -3,7 +3,7 @@ export const categories = [
   { id: 2, title: "Business" },
   { id: 3, title: "IT & Software" },
   { id: 4, title: "Design" },
-  { id: 5, title: "Marketing" }
+  { id: 5, title: "Marketing" },
 ];
 
 export const heroCourses = [
@@ -13,7 +13,7 @@ export const heroCourses = [
     instructor: "John Doe",
     rating: 4.7,
     price: 19.99,
-    image: "/images/python-course.webp"
+    image: "https://via.placeholder.com/200",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const heroCourses = [
     instructor: "Jane Smith",
     rating: 4.8,
     price: 14.99,
-    image: "/images/webdev-course.jpg"
+    image: "https://via.placeholder.com/200",
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ export const heroCourses = [
     instructor: "Alex Brown",
     rating: 4.6,
     price: 12.99,
-    image: "/images/react-course.webp"
-  }
+    image: "https://via.placeholder.com/200",
+  },
 ];
 
 export const trustedCompanies = [
@@ -38,5 +38,5 @@ export const trustedCompanies = [
   "Volkswagen",
   "Box",
   "Netflix",
-  "Eventbrite"
+  "Eventbrite",
 ];
